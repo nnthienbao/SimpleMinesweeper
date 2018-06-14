@@ -50,6 +50,7 @@ public class Board extends JPanel implements MouseMotionListener, MouseListener,
 
     @Override
     protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
 
         //Draw cell

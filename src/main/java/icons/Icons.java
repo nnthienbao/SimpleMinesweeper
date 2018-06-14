@@ -29,21 +29,21 @@ public class Icons {
     private static Image timer;
 
     public static void loadIcon() throws IOException, URISyntaxException {
-        num1 = ImageIO.read(new File(Icons.class.getResource("/images/1.png").toURI()));
-        num2 = ImageIO.read(new File(Icons.class.getResource("/images/2.png").toURI()));
-        num3 = ImageIO.read(new File(Icons.class.getResource("/images/3.png").toURI()));
-        num4 = ImageIO.read(new File(Icons.class.getResource("/images/4.png").toURI()));
-        num5 = ImageIO.read(new File(Icons.class.getResource("/images/5.png").toURI()));
-        num6 = ImageIO.read(new File(Icons.class.getResource("/images/6.png").toURI()));
-        num7 = ImageIO.read(new File(Icons.class.getResource("/images/7.png").toURI()));
-        num8 = ImageIO.read(new File(Icons.class.getResource("/images/8.png").toURI()));
+        num1 = ImageIO.read(Icons.class.getResource("/images/1.png"));
+        num2 = ImageIO.read(Icons.class.getResource("/images/2.png"));
+        num3 = ImageIO.read(Icons.class.getResource("/images/3.png"));
+        num4 = ImageIO.read(Icons.class.getResource("/images/4.png"));
+        num5 = ImageIO.read(Icons.class.getResource("/images/5.png"));
+        num6 = ImageIO.read(Icons.class.getResource("/images/6.png"));
+        num7 = ImageIO.read(Icons.class.getResource("/images/7.png"));
+        num8 = ImageIO.read(Icons.class.getResource("/images/8.png"));
 
-        mine = ImageIO.read(new File(Icons.class.getResource("/images/mine.png").toURI()));
-        mineRed = ImageIO.read(new File(Icons.class.getResource("/images/mine_red.png").toURI()));
+        mine = ImageIO.read(Icons.class.getResource("/images/mine.png"));
+        mineRed = ImageIO.read(Icons.class.getResource("/images/mine_red.png"));
 
-        flag = ImageIO.read(new File(Icons.class.getResource("/images/flag.png").toURI()));
+        flag = ImageIO.read(Icons.class.getResource("/images/flag.png"));
 
-        timer = ImageIO.read(new File(Icons.class.getResource("/images/timer.png").toURI()));
+        timer = ImageIO.read(Icons.class.getResource("/images/timer.png"));
     }
 
     public static Image[] getArrayNum() {
